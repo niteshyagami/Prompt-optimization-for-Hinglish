@@ -1,0 +1,17 @@
+Model,technique,Quality,Q_Std,Latency,Tokens,Q_per_Sec,Q_per_Token
+Llama-3.1-8B,agentic_context,7.46,2.727,2.718,224.405,3595.801,3.604
+Llama-3.1-8B,chain_of_thought,7.422,2.829,2.847,256.415,3159.177,3.166
+Llama-3.1-8B,few_shot,7.292,2.87,2.658,148.81,3421.469,3.435
+Llama-3.1-8B,hierarchical_context,7.152,2.993,2.143,268.055,3294.157,3.3
+Llama-3.1-8B,rag_style,7.282,2.94,2.66,141.37,3435.776,3.45
+Llama-3.1-8B,structured_context,7.356,2.769,3.657,147.57,3288.647,3.304
+Llama-3.1-8B,tree_of_thought,7.468,2.733,2.752,245.575,3386.713,3.394
+Llama-3.1-8B,zero_shot,7.395,2.772,4.261,187.25,3291.96,3.303
+Llama-3.3-70B,agentic_context,6.4,2.903,0.483,68.15,5362.933,5.365
+Llama-3.3-70B,chain_of_thought,6.445,3.02,0.595,83.375,5350.36,5.352
+Llama-3.3-70B,few_shot,6.555,2.934,0.383,45.265,5433.308,5.437
+Llama-3.3-70B,hierarchical_context,6.502,2.912,0.627,84.765,5395.364,5.397
+Llama-3.3-70B,rag_style,6.342,3.092,0.784,38.605,5166.476,5.171
+Llama-3.3-70B,structured_context,6.572,2.975,0.292,41.43,5458.514,5.463
+Llama-3.3-70B,tree_of_thought,6.492,2.958,0.566,76.6,5377.891,5.38
+Llama-3.3-70B,zero_shot,6.22,3.047,0.236,52.025,5148.572,5.152

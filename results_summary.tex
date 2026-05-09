@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Overall Performance Summary}
+\begin{tabular}{lrrrrrl}
+\toprule
+technique & avg_quality & std_quality & avg_latency & avg_tokens & count & model \\
+\midrule
+agentic_context & 7.460 & 2.727 & 2.718 & 223.875 & 200 & Llama-3.1-8B \\
+chain_of_thought & 7.422 & 2.829 & 2.847 & 255.920 & 200 & Llama-3.1-8B \\
+few_shot & 7.292 & 2.870 & 2.658 & 148.305 & 200 & Llama-3.1-8B \\
+hierarchical_context & 7.152 & 2.993 & 2.143 & 267.545 & 200 & Llama-3.1-8B \\
+rag_style & 7.282 & 2.940 & 2.660 & 140.850 & 200 & Llama-3.1-8B \\
+structured_context & 7.356 & 2.769 & 3.656 & 147.080 & 200 & Llama-3.1-8B \\
+tree_of_thought & 7.468 & 2.733 & 2.752 & 245.085 & 200 & Llama-3.1-8B \\
+zero_shot & 7.395 & 2.772 & 4.261 & 186.770 & 200 & Llama-3.1-8B \\
+agentic_context & 6.400 & 2.903 & 0.482 & 67.315 & 200 & Llama-3.3-70B \\
+chain_of_thought & 6.445 & 3.020 & 0.594 & 82.545 & 200 & Llama-3.3-70B \\
+few_shot & 6.555 & 2.934 & 0.382 & 44.435 & 200 & Llama-3.3-70B \\
+hierarchical_context & 6.502 & 2.912 & 0.626 & 83.935 & 200 & Llama-3.3-70B \\
+rag_style & 6.342 & 3.092 & 0.783 & 37.780 & 200 & Llama-3.3-70B \\
+structured_context & 6.572 & 2.975 & 0.291 & 40.600 & 200 & Llama-3.3-70B \\
+tree_of_thought & 6.492 & 2.958 & 0.566 & 75.770 & 200 & Llama-3.3-70B \\
+zero_shot & 6.220 & 3.047 & 0.235 & 51.195 & 200 & Llama-3.3-70B \\
+\bottomrule
+\end{tabular}
+\end{table}

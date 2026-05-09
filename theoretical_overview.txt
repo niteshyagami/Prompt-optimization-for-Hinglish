@@ -1,0 +1,112 @@
+THEORETICAL OVERVIEW
+Comparative Analysis of Prompt Engineering vs. Context Engineering Techniques
+for Hindi/Hinglish Student Question Answering in Resource-Constrained Environments
+
+1) PROJECT GOAL
+The project investigates which prompt and context-engineering strategies yield
+better answer quality for Hindi/Hinglish student question answering when
+resources are limited. The focus is on natural Hinglish (Roman script) outputs,
+typical Indian school topics, and practical constraints (small/fast models,
+short prompts, limited tokens).
+
+2) PROBLEM STATEMENT
+LLMs perform differently across prompt patterns. For low-resource settings, the
+tradeoff between quality and cost (latency, tokens) is critical. This study
+compares multiple prompting and lightweight context strategies on a Hinglish QA
+dataset to identify which techniques offer the best quality-cost balance.
+
+3) KEY DEFINITIONS
+Prompt Engineering:
+- The deliberate design of instructions, examples, and formatting to steer the
+  model without adding external knowledge.
+Examples: zero-shot, few-shot, chain-of-thought, structured outputs.
+
+Context Engineering (lightweight):
+- Prompt structures that explicitly add reasoning structure or pseudo-context,
+  but without external retrieval or long documents.
+Examples: hierarchical context, tree-of-thought, agentic steps, structured
+  JSON answer templates.
+
+Resource-Constrained Environment:
+- Smaller or faster models, token limits, and runtime cost constraints.
+- Emphasis on fast inference and low token usage.
+
+4) DATA SOURCES AND DATASET CREATION
+Primary source: Kaggle educational QA data (JSONL).
+Processing pipeline:
+1. load_dataset.py
+   - Robustly loads JSONL to student_qa_clean.csv.
+2. convert_to_hinglish.py
+   - Converts English QA to Hinglish using Groq, producing
+     hinglish_student_qa_final.csv.
+3. generate_new_samples.py
+   - Generates additional Hinglish QA samples using Groq, producing
+     new_hinglish_samples_200.csv.
+4. merge_datasets.py
+   - Standardizes columns, merges, shuffles, and writes
+     final_hinglish_qa_dataset.csv.
+
+5) PROMPT STRATEGIES (PROMPT TEMPLATES)
+Defined in prompt_templates.py. Techniques include:
+- zero_shot
+- few_shot
+- chain_of_thought
+- structured_context
+- hierarchical_context
+- rag_style (simulated, no external retrieval)
+- tree_of_thought
+- agentic_context
+
+6) EXPERIMENTAL DESIGN
+Two experiment tiers:
+1. fast_test_experiment.py
+   - Small sample size for quick comparison.
+   - Techniques: zero_shot, few_shot, chain_of_thought, structured_context.
+   - Outputs: fast_test_results.csv (latency, tokens, generated answers).
+2. medium_test_experiment.py
+   - Larger sample size with more techniques.
+   - Outputs: medium_test_results.csv (includes question, ground truth, etc.).
+
+Generation model:
+- Llama 3.1 8B (fast, resource-friendly).
+
+7) EVALUATION METHODOLOGY
+evaluate_results.py uses an LLM-as-judge:
+- Inputs: question, ground truth, generated answer.
+- Output: quality_score on correctness, relevance, and Hinglish naturalness.
+- Produces evaluated_results.csv and aggregated summary by technique.
+
+Metrics:
+- Latency (seconds)
+- Tokens used
+- Quality score (1-10, LLM-judged)
+
+8) EXPECTED FINDINGS (THEORETICAL)
+Hypothesis:
+- Few-shot and structured prompts increase quality but cost more tokens.
+- Chain-of-thought or tree-of-thought may improve reasoning but can increase
+  latency and verbosity.
+- Structured outputs can improve clarity and reduce ambiguity, but may limit
+  natural Hinglish flow.
+
+9) LIMITATIONS
+- LLM-judge can introduce bias.
+- No human evaluation baseline.
+- "Context engineering" is lightweight (no external retrieval).
+- Dataset size may limit statistical power.
+
+10) REPRODUCIBILITY AND ARTIFACTS
+Key artifacts:
+- final_hinglish_qa_dataset.csv
+- fast_test_results.csv
+- medium_test_results.csv
+- evaluated_results.csv
+
+Important note:
+- API keys must be stored in environment variables, not in source files.
+
+11) FUTURE WORK
+- Add human evaluation for a subset.
+- Expand context engineering with retrieval (RAG) and verified sources.
+- Explore model quantization or smaller models for stricter constraints.
+- Add ablation study over prompt length and example count.

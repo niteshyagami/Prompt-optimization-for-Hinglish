@@ -1,0 +1,9 @@
+technique,mean_8B,mean_70B,diff,p_value,significant
+zero_shot,7.395,6.22,1.175,0.0001,True
+few_shot,7.292,6.555,0.738,0.0114,True
+chain_of_thought,7.422,6.445,0.978,0.0009,True
+structured_context,7.356,6.572,0.784,0.0067,True
+hierarchical_context,7.152,6.502,0.65,0.0283,True
+rag_style,7.282,6.342,0.94,0.002,True
+tree_of_thought,7.468,6.492,0.975,0.0007,True
+agentic_context,7.46,6.4,1.06,0.0002,True

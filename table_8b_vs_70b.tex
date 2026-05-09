@@ -1,0 +1,17 @@
+\begin{table}
+\caption{8B vs 70B Direct Comparison}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+technique & avg_quality_8B & avg_latency_8B & avg_tokens_8B & avg_quality_70B & avg_latency_70B & avg_tokens_70B & quality_diff & latency_diff \\
+\midrule
+agentic_context & 7.460 & 2.718 & 223.875 & 6.400 & 0.482 & 67.315 & 1.060 & 2.236 \\
+chain_of_thought & 7.422 & 2.847 & 255.920 & 6.445 & 0.594 & 82.545 & 0.977 & 2.253 \\
+few_shot & 7.292 & 2.658 & 148.305 & 6.555 & 0.382 & 44.435 & 0.737 & 2.276 \\
+hierarchical_context & 7.152 & 2.143 & 267.545 & 6.502 & 0.626 & 83.935 & 0.650 & 1.517 \\
+rag_style & 7.282 & 2.660 & 140.850 & 6.342 & 0.783 & 37.780 & 0.940 & 1.877 \\
+structured_context & 7.356 & 3.656 & 147.080 & 6.572 & 0.291 & 40.600 & 0.784 & 3.365 \\
+tree_of_thought & 7.468 & 2.752 & 245.085 & 6.492 & 0.566 & 75.770 & 0.976 & 2.186 \\
+zero_shot & 7.395 & 4.261 & 186.770 & 6.220 & 0.235 & 51.195 & 1.175 & 4.026 \\
+\bottomrule
+\end{tabular}
+\end{table}

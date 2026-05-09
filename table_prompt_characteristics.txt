@@ -1,0 +1,9 @@
+           technique  prompt_chars_mean  prompt_words_mean
+           zero_shot             195.94               32.4
+            few_shot             286.94               48.4
+    chain_of_thought             232.94               39.4
+  structured_context             227.94               37.4
+hierarchical_context             269.94               43.4
+           rag_style             291.94               47.4
+     tree_of_thought             232.94               39.4
+     agentic_context             326.94               52.4

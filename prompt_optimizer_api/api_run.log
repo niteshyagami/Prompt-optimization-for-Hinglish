@@ -1,0 +1,3 @@
+INFO:     Will watch for changes in these directories: ['c:\\Users\\nites\\Desktop\\Comparative Analysis of Prompt Engineering vs. Context Engineering Techniques for HindiHinglish Student Question Answering in Resource-Constrained Environments']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [31368] using WatchFiles

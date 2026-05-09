@@ -1,0 +1,9 @@
+technique,quality_score_mean,latency_sec_mean,tokens_mean,quality_per_sec,quality_per_token
+agentic_context,8.03,3.66,337.52,2.194,0.023791
+chain_of_thought,7.76,2.909,386.58,2.6676,0.020073
+few_shot,8.024,2.628,231.44,3.0533,0.03467
+hierarchical_context,7.94,2.6,393.24,3.0538,0.020191
+rag_style,7.73,3.272,223.7,2.3625,0.034555
+structured_context,7.24,5.314,227.9,1.3624,0.031768
+tree_of_thought,7.87,2.774,362.86,2.8371,0.021689
+zero_shot,8.02,2.799,267.7,2.8653,0.029959

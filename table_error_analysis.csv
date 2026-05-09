@@ -1,0 +1,9 @@
+technique,total_samples,error_count,error_rate,json_parse_rate
+agentic_context,50,14,0.28,0.0
+chain_of_thought,50,15,0.3,0.0
+few_shot,50,15,0.3,0.0
+hierarchical_context,50,14,0.28,0.0
+rag_style,50,15,0.3,0.0
+structured_context,50,12,0.24,0.3
+tree_of_thought,50,10,0.2,0.0
+zero_shot,50,10,0.2,0.0

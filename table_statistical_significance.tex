@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Statistical Significance Tests}
+\begin{tabular}{lrrrrr}
+\toprule
+technique & mean_8B & mean_70B & diff & p_value & significant \\
+\midrule
+zero_shot & 7.395 & 6.220 & 1.175 & 0.000 & True \\
+few_shot & 7.292 & 6.555 & 0.738 & 0.011 & True \\
+chain_of_thought & 7.422 & 6.445 & 0.978 & 0.001 & True \\
+structured_context & 7.356 & 6.572 & 0.784 & 0.007 & True \\
+hierarchical_context & 7.152 & 6.502 & 0.650 & 0.028 & True \\
+rag_style & 7.282 & 6.342 & 0.940 & 0.002 & True \\
+tree_of_thought & 7.468 & 6.492 & 0.975 & 0.001 & True \\
+agentic_context & 7.460 & 6.400 & 1.060 & 0.000 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

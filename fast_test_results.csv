@@ -1,0 +1,401 @@
+sample_id,technique,question,generated_answer,latency_sec,tokens
+0,zero_shot,"Sir, Bharat ke panchayati raj vyavastha ka uddeshya kya hai?","Arre, Bharat ke panchayati raj vyavastha ka uddeshya ye hai ki gram sabha, gram panchayat, aur zila panchayat ke madhyam se gram sarkar ki shakti ko badhaya jaye aur vikas ke kshetra mein samriddhi laaya jaye. Ye vyavastha ki uddeshya ye hai ki panchayat gram ke vasiyon ke swaraj aur swatantrata ko badhayein aur unke jeevan mein shuddhikaran laayein.
+
+Yah vyavastha 73rd amendment ke madhyam se 199",1.05,523
+0,few_shot,"Sir, Bharat ke panchayati raj vyavastha ka uddeshya kya hai?","Bhai, Bharat ke panchayati raj vyavastha ka uddeshya hai ki gram sabha ko swatantrata aur samasyaon ka samadhan karna mile. Yeh vyavastha gram panchayat ke zariye gram ke logon ko aapne samasyaon ka samadhan karne ke liye majboot banati hai. Gram panchayat gram ke logon ke liye aam vikaas ka karyakram banati hai, jaise ki jal, swachhata, shiksha, aur anya vikaas karyakram. Isse gram ke logon ki aa",0.387,251
+0,chain_of_thought,"Sir, Bharat ke panchayati raj vyavastha ka uddeshya kya hai?","Sir, main aapko Bharat ke panchayati raj vyavastha ka uddeshya batata hoon.
+
+Pehle, panchayati raj vyavastha ka arth hai gram sabha aur gram panchayat ke madhyam se gram kshetra ki sarkar. Ismein gram sabha ke members kee chunav hoti hain aur ve apne kshetra ki safalta aur vikas ke liye kaam karte hain.
+
+Ab, panchayati raj vyavastha ka uddeshya kya hai? 
+
+Pehla uddeshya, swarajya aur swatantrata k",0.812,548
+0,structured_context,"Sir, Bharat ke panchayati raj vyavastha ka uddeshya kya hai?","{
+  ""uddeshya"": ""Panchayati raj vyavastha ka uddeshya Bharat mein gram panchayaton ko sthapat aur viksit karna hai. Yah vyavastha gram sabha, panchayat samiti aur zila parishad ki madad se gram panchayaton ko swatantra roop se kaarykartaana chunne aur nittiyaan banane ka adhikaar deti hai."",
+  ""mukhya lakshya"": ""Gram panchayaton ke mukhya lakshya hai gavon ki vikas yojanaon ko banane, unka praband",0.687,391
+1,zero_shot,Pehli baar insaani itihaas mein kaun si 'transcending concern' saamne aayi hai? Jab pehli baar hum insaani itihaas mein dekhte hain ki ek aisi chintaa,"Kya karein, pehli baar ek aisi chintaa insaani itihaas mein aayi hai jo ki poore grah ki suraksha ki baat karegi. Yeh ek aisa samay hai jab hum apni maujoodgi ke buniyadi pehluon par ek holistic nazarandaaz kar rahe hain. Environmental samasya humari mrityu ka sanket nahin hai, balki yeh humari bhavishya ki passport hai.
+
+Pehli baar hum insaani itihaas mein ek aisi chintaa ko dekh rahe hain jo ki ",0.827,605
+1,few_shot,Pehli baar insaani itihaas mein kaun si 'transcending concern' saamne aayi hai? Jab pehli baar hum insaani itihaas mein dekhte hain ki ek aisi chintaa,"Bhaiya, pehli baar insaani itihaas mein ek 'Climate Change' ka mudda saamne aaya hai. Yeh ek aisi chintaa hai jo ki poore grah ki suraksha ka khayal rakh rahi hai. Hum insaani maanavta ne apni maujoodgi ke pehle baar ek holistic nazarandaaz kiya hai aur dekha ki humari kriyayein aur nirnay humari bhavishya ko kaisa banane wale hain.
+
+Yeh ek naye duniya ke drishtikon ka uday hai, jahaan hum log apn",0.542,460
+1,chain_of_thought,Pehli baar insaani itihaas mein kaun si 'transcending concern' saamne aayi hai? Jab pehli baar hum insaani itihaas mein dekhte hain ki ek aisi chintaa,"Arre bhai, yeh sawaal bahut majboot hai. Main isey kadam kadam samajhne ki koshish karta hoon.
+
+Pehla kadam: Pehli baar insaani itihaas mein kaun si 'transcending concern' saamne aayi hai?
+
+Jawab: Main sochta hoon ki is sawaal ka jawab humare samkalin samay mein hua hai. Pehli baar insaani itihaas mein humne apni paristhitiyon ke saath sambandh badalne ki zaroorat samajhi hai. 
+
+Doosra kadam: Jab ",1.039,817
+1,structured_context,Pehli baar insaani itihaas mein kaun si 'transcending concern' saamne aayi hai? Jab pehli baar hum insaani itihaas mein dekhte hain ki ek aisi chintaa,"{
+  ""paheli_baar_insani_itihaas"": ""Covid-19"",
+  ""transcending_concern"": ""Vishvaaviraam aur grah suraksha"",
+  ""pehle_chinta"": ""Sirf logon ki, balki poore grah ki suraksha"",
+  ""holistic_nazarandaaz"": ""Aapni maujoodgi ke buniyadi pehluon par"",
+  ""environmental_samasya"": ""Humari mrityu ka sanket nahin, balki humari bhavishya ki passport hai"",
+  ""naye_duniya_drishtikon"": ""Uday hua hai, jo kisi bhi vaig",0.404,387
+2,zero_shot,"Sir, kya aap bata sakte hain ki Mughal empire ka itihaas kya hai?","Mughal empire ka itihaas bahut hi adbhut aur mahatvapoorn hai. Yeh empire 1526 mein Babur ki jitee gaadi se shuru hua tha, jinhone Pānīpat ke peechhe Lodi sultanate ka samna kiya tha. Babur ki jitee gaadi ne Bharat mein ek nayi shakti ka aayojan kiya aur ek nayi samajik, sanatanik aur saanskritik kalpana ki.
+
+Babur ke baad, aapke pati Humayun ne apni maa Hamida Banu Begum ka sahayog liya aur apni ",1.115,674
+2,few_shot,"Sir, kya aap bata sakte hain ki Mughal empire ka itihaas kya hai?","Mughal empire ka itihaas bahut hi mahatvapurn hai, bhai. Yeh ek suchi hai jisme unke shasan ki shuruaat, unke pradhaan rajaon ke naam, unke yudh, unke vikaas aur ant ki kahaani shamil hai.
+
+Shuruaat: Mughal empire ki shuruaat 1526 mein hui thi jab Babur ne Lodhi sultanate ko haraya tha. Babur ek turk-mongol samrajya ka shahanshah tha jo afghanistan se aaya tha.
+
+Pradhaan raaj: Mughal empire mein k",2.779,412
+2,chain_of_thought,"Sir, kya aap bata sakte hain ki Mughal empire ka itihaas kya hai?","Mughal empire ka itihaas ek bahut hi sundar aur samriddh itihaas hai. To main aapko iske bare mein kuchh step-by-step baat karunga:
+
+**Pratham Step: Mughal Empire ka Utpatt (Establishment)**
+
+Mughal Empire ka uddhaman Babur se shuru hua, jo ki Timur ke vanshaaj the. Babur ne 1526 mein Babri Masjid ke khandhar par Mughal Empire ka sthaapna ki. Unka put Humayun Bharat ka pahla sarkaar tha. Lekin Hum",4.202,680
+2,structured_context,"Sir, kya aap bata sakte hain ki Mughal empire ka itihaas kya hai?","{
+  ""Mughal Empire"": {
+    ""vistar"": ""Mughal Empire ek prasiddh samrajya tha jo 16vi shatabdi mein Bharat mein sthapit hua tha."",
+    ""shuruaat"": ""Iska shuruaat Babur ne 1526 mein kiya tha, jo Timurid dynasty se tha."",
+    ""vistar"": ""Unhone 1556 mein Akbar ko sultan banaaya, jo Mughal Samrajya ko apne shasan mein vyapak banaya."",
+    ""akbar"": {
+      ""shahanshah"": ""Akbar ne apne shasan mein kai ma",6.986,474
+3,zero_shot,"Ma'am, mitosis kya hota hai, isme kitne phases hote hain?","Mitosis ek prakaar ka cell division hai, jismein ek mother cell do bache hote hain. Yeh prakriya zyada se zyada roop se is prakaar hota hai: 
+
+Mitosis ki 4 mukhya phase hain:
+
+1. Prophase: Ismein DNA condense ho jata hai aur spindle fibers ban jate hain.
+2. Metaphase: DNA chromosomes spindle fibers par arrange ho jate hain.
+3. Anaphase: Chroosomes aasani se alag hokar ek-ek cell me jate hain.
+4. T",4.616,278
+3,few_shot,"Ma'am, mitosis kya hota hai, isme kitne phases hote hain?","Beta, mitosis ek prakriya hai jismein koi bhi jeev ki koshikaa ek se do shareer banata hai. Ismein kai phases hote hain. 
+
+Mitosis ki phases yeh hain:
+
+1. Prophase: Is phase mein koshikaa ke chromosome viksit ho jaate hain aur mitotic spindle ban jata hai.
+2. Metaphase: Is phase mein chromosome mitotic spindle ke beech mein arrange ho jaate hain.
+3. Anaphase: Is phase mein chromosome do alag-alag ",2.599,315
+3,chain_of_thought,"Ma'am, mitosis kya hota hai, isme kitne phases hote hain?","Arre, mitosis ek bahut hi aham prakriya hai jo hamaare shareer ke anya ke liye zaroori hai. 
+
+Sabse pehle, mitosis ek prakriya hai jo DNA ki sanrachna ko banaye rakhne ke liye hoti hai. Yeh prakriya DNA ki sanrachna ko dubara banane ke liye hoti hai.
+
+Ab, mitosis mein kitne phases hote hain? Ye hai:
+
+1. **Prophase**: Ismein, DNA ko chromosomes mein vibhajit kiya jata hai, aur centrioles (jise kina",1.96,491
+3,structured_context,"Ma'am, mitosis kya hota hai, isme kitne phases hote hain?","**Mitosis ki jaankari:**
+
+```json
+{
+  ""mitosis"": {
+    ""definition"": ""Mitosis ek prakriya hai jismein ek anya se anya cell banane ke liye DNA ki ek naya kopi banati hai."",
+    ""phases"": {
+      ""ga"": 5,
+      ""names"": [
+        ""Prophase"",
+        ""Metaphase"",
+        ""Anaphase"",
+        ""Telophase"",
+        ""Cytokinesis""
+      ]
+    }
+  }
+}
+```
+
+**Chhote chhote shabdon mein:**
+
+Mitosis ek prakriy",5.606,253
+4,zero_shot,Jab bachcha paida hota hai toh uski kya condition hoti hai?,"Jab bachcha paida hota hai toh uski condition bahut kamzor hoti hai, uski pankhanein aur hriday karya nahi karte hain. Iske liye doctor ke paas jana jaroori hota hai aur uska nazarbandi kiya jata hai.",0.248,137
+4,few_shot,Jab bachcha paida hota hai toh uski kya condition hoti hai?,"Bhaiya, jab bachcha paida hota hai toh uski condition bahut kamjor hoti hai, jaise ki ek patthar ke saman wali condition. Isme uska weight saman hota hai, lekin uska length aur breadth bahut kam hota hai. Isliye, is condition mein bachcha bahut kam pressure aur stress ka saamna karta hai. Lekin, iski condition kuch din mein badhti jati hai aur uska weight aur size bhi badhta jata hai.",3.456,199
+4,chain_of_thought,Jab bachcha paida hota hai toh uski kya condition hoti hai?,"Arre, yeh question bahut achi hai. Jab bachcha paida hota hai, toh uski kya condition hoti hai, yaar? 
+
+Step 1: Sabse pehle, bachcha ko ek newborn ke roop mein janna jata hai. Is samay uski age lagbhag 37-42 week hoti hai.
+
+Step 2: Newborn bachche ka weight lagbhag 2.5-4 kg hota hai, aur uski height lagbhag 45-50 cm hoti hai.
+
+Step 3: Is samay bachche ko apne shwaas lagne lagte hain aur uska heart",1.695,334
+4,structured_context,Jab bachcha paida hota hai toh uski kya condition hoti hai?,"{
+  ""sharirik sthiti"": ""Bachcha janm ke baad thoda kamzor hota hai aur use aaram karnaa hota hai."",
+  ""hridaya sthiti"": ""Uski hridaya ki garadhi kamzor hoti hai aur use thoda jyada dhan chahiye hota hai."",
+  ""shwasan sthiti"": ""Uski shwasan system kamzor hoti hai aur use thoda jyada oxygen chahiye hota hai."",
+  ""tanaav sthiti"": ""Uski tanaav sthiti bhi kamzor hoti hai aur use thoda jyada aaram karna",3.427,227
+5,zero_shot,"Khan Azam Khan ke claims ko landlord, moneylender aur priest kaise dekhte hain?","Khan Azam Khan ke claims ko landlord, moneylender aur priest log alag-alag tareeke se dekhte hain. 
+
+Landlord: Yeh log sochte hain ki Khan Azam Khan ek samajik karyakarta hain, jo samaj mein vyavastha badhane ke liye kaam karte hain. Unhe lagta hai ki unke claims aapne samajik adhikaron ka pradarshan karte hain aur samaj mein sudhaar karna chahte hain.
+
+Moneylender: Yeh log sochte hain ki Khan Aza",0.709,373
+5,few_shot,"Khan Azam Khan ke claims ko landlord, moneylender aur priest kaise dekhte hain?","Bhai, Khan Azam Khan ke claims ko landlord, moneylender aur priest yehi samajh sakte hain:
+
+- Landlord: Arey bhai, ye Khan Azam Khan ke claims ki property ka claim hai. Veh keh rahe hain ki property unki hai, lekin landlord ke paas records hain ki property unka hi hai. Ye property ke liye legal battle ho sakta hai, aur landlord ke paas sahi hukum hai.
+
+- Moneylender: Bhai, moneylender ko Khan Azam",4.753,368
+5,chain_of_thought,"Khan Azam Khan ke claims ko landlord, moneylender aur priest kaise dekhte hain?","Khan Azam Khan ke claims ko landlord, moneylender aur priest kaise dekhte hain, yeh jaanane ke liye humein unke point of view se sochne ki zaroorat hai.
+
+1. **Landlord ke point of view se:**
+- Khan Azam Khan ke claims ke anusaar, property ki koi vardhi ki ghati nahin hui hai. Isse landlord ko lagta hai ki unke property ki koi nuksaan nahin hua hai.
+- Landlord ke liye property ki vardhi ki ghati ek",4.128,589
+5,structured_context,"Khan Azam Khan ke claims ko landlord, moneylender aur priest kaise dekhte hain?","""Khan Azam Khan ke claims ko landlord, moneylender aur priest ek-ek karke dekh rahe hain:
+
+- Landlord: ""Yeh Khan Azam Khan ki claim to hai ki unka ghar poori tarah se jam gaya hai, lekin humein lagta hai ki yeh ek adhikaranik khel hai. Humne unke paas adhikaranik notice diya tha, lekin unhone koi jawab nahin diya. Hum unka ghar jamane ki zaroorat nahin samjhe rahe.""
+
+- Moneylender: ""Khan Azam Khan",3.839,386
+6,zero_shot,The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki kya reaction thi?,"Arre, yeh toh ek bahut hi interesting question hai! The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ka reaction bahut hi khatarnaak tha.
+
+Unki reaction yeh thi ki ve sabhi king ki tarah hi bahut hi gusse mein aaye. Unhone kaha ki yeh decision galat hai aur unke liye bahut hi ashamanajak hai. Unhone king ko yeh bhi kaha ki ve inke decision ke liye unka sam",3.855,342
+6,few_shot,The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki kya reaction thi?,"The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki reaction bahut galat thi. Unhone king ki haraamzadi par protest kiya aur khule aam mein unke khilaf gale lagane laga. Unhone yeh bolne ki koshish ki ki yeh decision galat hai, kyunki inka guilt unhein ek samay pehla hi tha.",3.41,188
+6,chain_of_thought,The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki kya reaction thi?,"Bhai, main is sawal ka jawab dene ke liye sochne-jochne ja raha hoon. 
+
+Pehle, main sochta hoon ki Melon City mein king ne guilt ko postpone karne ka decision liya, to yeh kuch aur hi hai. 
+
+Toh, main sochta hoon ki crowd ki reaction kya hogi. Main sochta hoon ki agar crowd ko pata chalta ki king ne guilt ko postpone karne ka decision liya hai, toh unka reaction kya hoga.
+
+Ab, main sochta hoon ki ",0.655,424
+6,structured_context,The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki kya reaction thi?,"{""question"": ""The Tale of Melon City mein jab king ne guilt ko postpone karne ka decision liya toh crowd ki kya reaction thi?"",
+ ""answer"": ""Crowd ne apne king ke is fasiyaab ko keel kehkar uske khilaaf pradarshan kiya.""}",5.276,141
+7,zero_shot,"Formal aur informal letters me kaun si difference hai unke purpose ke basis par? Aam taur par do tarah ke letters hote hai, formal jo official busines","Formal aur informal letters ke beech mein ek bahut badi difference hai unke purpose ke basis par. Formal letters official business, government departments, aur company ke liye likhe jate hain, jahaan information, agreement, aur contract ke baare mein baat hoti hai.
+
+Iske ilawa, informal letters personal communication ke liye likhe jate hain, jaise ki apne friends, family, aur parivar ke saath baat",1.858,455
+7,few_shot,"Formal aur informal letters me kaun si difference hai unke purpose ke basis par? Aam taur par do tarah ke letters hote hai, formal jo official busines","Bhaiya, formal aur informal letters ke beech main kuch aise difference hote hai jo unke purpose ke basis par. 
+
+Formal letters, jaise ki official business aur information ke liye likhe jate hai, usme bahut hi professional aur respectful language ka upyog kiya jata hai. Yeh letters office mein, college mein ya professional setting mein likhe jate hai. Ismein subject line, date, name aur signature k",3.648,366
+7,chain_of_thought,"Formal aur informal letters me kaun si difference hai unke purpose ke basis par? Aam taur par do tarah ke letters hote hai, formal jo official busines","Arre, yeh question bahut achha hai. Main step by step sochta hoon aur aapko batata hoon difference formal aur informal letters ke.
+
+Step 1: Purposse 
+Formal aur informal letters ke purpose alag-alag hota hai. Formal letters official business, information, aur official communication ke liye likhe jaate hain, jaise ki job apply karna, college mein admission lena, aur company se information lena. 
+
+I",3.811,503
+7,structured_context,"Formal aur informal letters me kaun si difference hai unke purpose ke basis par? Aam taur par do tarah ke letters hote hai, formal jo official busines","```json
+{
+  ""formal_aur_informal_letters"": {
+    ""difference"": ""Purpose ke basis par, formal aur informal letters me kai differences hain."",
+    ""formal_letters"": {
+      ""purpose"": ""Official business, information, job search, resume, cover letter aur formal invitations ke liye likhe jate hain."",
+      ""characteristics"": [
+        ""Formal language aur tone ka upyog karte hain."",
+        ""Professio",4.67,410
+8,zero_shot,"Sir, kya humne Chandrayaan mission ke baare me padha tha, isme kaun se instruments use hue?","Bhai, haan, Chandrayaan mission ke baare me humne padha tha. Is mission mein kai instruments use hue the, jinme se kuch pramukh instruments hain:
+
+- Laser Induced Breakdown Spectroscope (LIBS): Yeh instrument chandrama ke surface par metals ki gatividhiyon ko chuntha tha.
+- Alpha Particle X-Ray Spectrometer (APXS): Yeh instrument chandrama ke surface par metals aur anya elements ki gatividhiyon ko",3.557,285
+8,few_shot,"Sir, kya humne Chandrayaan mission ke baare me padha tha, isme kaun se instruments use hue?","Bhai, Chandrayaan mission ke baare me to humne padha tha. Is mission me kai instruments use hue, jaise ki Lunar Orbiter Camera (LOC), Lunar Laser Ranging Instrument (LLRI), High Energy X-ray Spectrometer (HEX), Moon Impact Probe (MIP), Radiation Dose Monitor (RDM), etc.",2.311,164
+8,chain_of_thought,"Sir, kya humne Chandrayaan mission ke baare me padha tha, isme kaun se instruments use hue?","Chandrayaan mission ek bahut hi badi cheez hai, isme bahut se instruments use hue the. Main iske baare mein aapko samjhaunga.
+
+Pehle, Chandrayaan mission ka pura naam Chandrayaan-1 tha. Yeh mission Bharat ne 2008 mein launch kiya tha.
+
+Is mission ke liye, Bharat ne kai instruments use kiye the. Inme se ek tha Moon Impact Probe. Yeh probe 23 August 2009 ko Chandrayaan-1 se chhoda gaya tha. 
+
+Doosra",1.82,385
+8,structured_context,"Sir, kya humne Chandrayaan mission ke baare me padha tha, isme kaun se instruments use hue?","{
+  ""Chandrayaan Mission ke Baare Mein"": {
+    ""instrument"": [
+      ""Lunar Laser Ranging Instrument (LLRI)"",
+      ""Moon Impact Probe (MIP)"",
+      ""Radar Imaging Spectrometer (RIS)"",
+      ""High Energy X-Ray Spectrometer (HEX)"",
+      ""Thermal Science Experiment (TSE)"",
+      ""Lunar Surface Magnetometer (LSM)"",
+      ""Moon's Exosphere Analyzer (MEA)"",
+      ""Lunar Dust and Atmospheric Environmen",3.835,391
+9,zero_shot,Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj,"Green Movement ki shuruwat 1970 mein hui thi, jab ek aam janta ki andolan shuru hua jo jeev aur jamiye ka dhyan rakhne ke liye kiya gaya tha. Yah andolan lagbhag 25 saal pehle shuru hua tha. 
+
+Is movement ke shuru hone ke thodi der baad, 1972 mein New Zealand mein duniya ki pehli nationwide Green party ki sthapna hui thi.",3.343,254
+9,few_shot,Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj,"Bhaiya, Green Movement 1970 ki dasha mein shuru hua tha. Iska pehla bada event 1972 mein hua, jab New Zealand mein duniya ki pehli nationwide Green party banayi gayi. Ise Ecology Party ke naam se bhi jaana jata tha. Us samay ki vishesh baat yeh thi ki uske baad kai deshon mein bhi Green party banayi gayi, jaise ki New Zealand, Australia, Canada, aur Germany. 
+
+Lekin agar hum kisi vishesh event ke ",2.677,398
+9,chain_of_thought,Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj,"Ek baar phir se Green Movement ke baare mein soch lete hain.
+
+1. **Green Movement ki shuruat**: Pehle step mein, hum jante hain ki Green Movement kab shuru hua. Mera jawab hai ki 25 saal pehle, Green Movement ki shuruat hui.
+2. **New Zealand mein Green party**: Ab, hum jante hain ki 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi.
+3. **Green Movement ka bada event",5.104,552
+9,structured_context,Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj,"**Green Movement ki jankari**
+
+```json
+{
+  ""kab_shuru_hua"": ""1972"",
+  ""shuru_hone_ke_thodi_der_baad_ke_event"": ""1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi."",
+  ""tez_se_poora_human_race_ko_koi_movement_chhua"": ""Haan, Green Movement ne itni jaldi aur itni tez se poora human race ko chhua hai."",
+  ""Green_Movement_ke_fayde"": [
+    ""Vriksharopan"",
+    ""Jalvayu par",4.627,410
+10,zero_shot,"Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ","Agar aapko kisi passage ko analyse karne ke baad summarise karne ka process samajhna hai, toh yeh yeh hai:
+
+Pehle, aapko passage ko padhna hoga aur usmein important ideas ko identify karna hoga. Ismein aapko passage ko notes mein convert karna hoga jahaan aapko important points ko underline karna hoga, unhein abbreviate karke verbs ko short karke likhna hoga, examples, explanations aur repetition ",2.867,515
+10,few_shot,"Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ","Bhaiya, passage ko summarise karne ke process ko analyse karke bataunga. 
+
+Ye process kuch is tarah hota hai:
+
+- Sabse pehle hum passage ko thorough study karte hain aur important ideas ka identification karte hain. 
+- Iske baad hum un important ideas ko full sentences mein expand karte hain aur unhein connect karte hain jo ki link karne ke liye suitable hain, jaise ki ""meanwhile"", ""however"", ""the",5.731,412
+10,chain_of_thought,"Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ","Arre yaar, main aapko is process ko step by step samjhata hoon.
+
+**Step 1: Passage ko padhna aur samajhna**
+- Sabse pehle, hum passage ko padhkar aur samajhkar shuru karte hain. Hum ismein sabhi cheejein samajhne ki koshish karte hain, jaise ki main idea, points, examples, aur explanations.
+
+**Step 2: Important ideas ko identify karna**
+- Phir hum important ideas ko identify karte hain, jo passage",4.186,625
+10,structured_context,"Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ","**Passage Summarise Karne ke Process ki Jankari**
+
+```json
+{
+  ""summary_process"": [
+    {
+      ""step"": ""1. Passage ko padhna aur samajhna"",
+      ""description"": ""Pehle passage ko adhikarik roop se padhe aur uski sabhi baatein samajhe.""
+    },
+    {
+      ""step"": ""2. Important ideas ko identify karna"",
+      ""description"": ""Ab passage mein sabse mahatvapurn vichar ko identify karein aur unhein ala",5.862,528
+11,zero_shot,"Ma'am, human body mein circulatory system kaise kaam karta hai?","Aapka sawaal bahut achha hai. Circulatory system, jo ki hriday aur rakta vahini se judi hai, humaare shareer mein rakta ko aarambh se antim tak le jata hai. Iska kaam yeh hai ki humaare shareer ki sabhi khalion ko paani aur oxygen pahunchaaye aur aamtaur par binaavrit rakhta ko nikaalne ke liye.
+
+Yeh system hamare shareer ko do takon mein vibhajit karta hai: shirashth rakta vahini aur hriday. Shir",2.155,410
+11,few_shot,"Ma'am, human body mein circulatory system kaise kaam karta hai?","Beta, circulatory system ek bahut hi zaroori system hai human body mein. Yeh heart, blood vessels aur blood ke through kaam karta hai. 
+
+Heart ek pumping machine jaise hai, jo blood ko body ke sabhi hisson mein pahunchane ke liye pressure deta hai. Blood vessels, jo arteries, veins aur capillaries ka naam hai, unme se blood flow karte hain. Arteries se blood heart tak jaata hai, phir isse veins me",5.725,322
+11,chain_of_thought,"Ma'am, human body mein circulatory system kaise kaam karta hai?","Arre, circulatory system ek bahut hi zarooratmand system hai human body mein. 
+
+Step 1: Pehle, circulatory system ka mukhya kaam hai blood ko puri body mein pahunchna. Yeh blood humare shareer ka lifaaf hai, jismein oxygen aur nutrients hote hain.
+
+Step 2: Blood ko pahunchane ke liye, circulatory system mein do prakaar ke vasatayein hote hain: nadiyan aur dubkhan. Nadiyan blood ko shareer ke alag-",8.166,495
+11,structured_context,"Ma'am, human body mein circulatory system kaise kaam karta hai?","**Circulatory System ka Karya**
+
+{
+  ""maam"": {
+    ""human_body"": {
+      ""circulatory_system"": {
+        ""karya"": ""Blood ko sabhi hisson tak pahunchaana aur waste product ko bahar nikalna.""
+      },
+      ""kaise_kam_karta_hai"": {
+        ""dikhao"": {
+          ""sharir mein khoon ki ghatakhon se bharpoor rahein"", 
+          ""sharir ke sabhi hisson tak khoon ke dauran oxygen aur ghutnein pahunchate h",4.6,238
+12,zero_shot,Mother's Day play ki setting kya hai?,"Mummy ki day play ki setting yeh hai:
+
+Play ek small village mein hai, jahaan ek middle-class parivaar rehta hai. Yeh parivaar ek aam ghar mein rehta hai, jahaan mummy badi bani hai aur apne bachchon ko bahut pyaar karti hai. Play ki shuruat ek din se hoti hai jab mummy ke bachchon ko pata chalta hai ki yeh din unke mummy ke liye hain.
+
+Bachchon ko is din ke liye bahut excited hai, aur ve apne mum",0.644,299
+12,few_shot,Mother's Day play ki setting kya hai?,"Bhaiya, Mother's Day play ki setting ek school ya college ki class hai, jahan bachche apni maa ke liye ek special event ka celebration kar rahe hain.",0.206,114
+12,chain_of_thought,Mother's Day play ki setting kya hai?,"Mujhe pata hai ki Mother's Day play ki setting kya honi chahiye. Main isse step by step samajhne ki koshish karta hoon.
+
+Sabse pehle, main sochta hoon ki Mother's Day play ki setting kya honi chahiye. Main sochta hoon ki ye play bachchon ke liye hona chahiye, isliye setting kuch aisi honi chahiye jismein bachchon ko bahut pasand aayegi.
+
+To, main sochta hoon ki setting ek aam ghar ki ho, jahaan ma",4.12,664
+12,structured_context,Mother's Day play ki setting kya hai?,"{
+  ""Mother's Day play ki setting"": ""Ek sadaa parivaar ki setting hai, jismein maa, baap, behen, bhai aur bachche hain. Play mein maa ko samman aur pyaar ka pradarshan kiya jata hai. Yahaan parivaar ke saath maa ki gaurav aur anand ki bhavanaa badalti hai.""
+}",6.523,149
+13,zero_shot,"Sir, kya aap bata sakte hain ki ancient civilization of Mesopotamia ka itihaas kya hai?","Arre, yeh sawal bahut hi achha hai! Mesopotamia ki purani sanskriti ka itihaas to bahut hi rochak hai.
+
+Mesopotamia, jo ki aaj ke Iraq ka hissa hai, ka itihaas lagbhag 4500 sal pichhle tak jaata hai. Yah sabse pehle sheher, Uruk, 3200 BCE mein banaya gaya tha. Iski sthapna Sumeriyon logon ne ki thi, jo ki Mesopotamia ki sabse pehle jaanakar hai.
+
+Sumeriyon logon ne apne sheheron mein nadiyon par d",1.313,605
+13,few_shot,"Sir, kya aap bata sakte hain ki ancient civilization of Mesopotamia ka itihaas kya hai?","Bhaiya, Mesopotamia ki ancient civilization bahut hi prasiddh hai. Unka itihaas lagbhag 4500 varsh purana hai, jiske dauraan ve apni vishal shaharon, rajyon aur sanskriti ke liye jaane jate hain.
+
+Mesopotamia ka naam aapne seekhne mein hoga ki yeh ""desh ke beech"" kee kahaani hai. Iski kahaani ne Sumer, Akkadiya, Babylon aur Ashur jaise shaharon aur rajyon ko jodti hai.
+
+Sumerians, jo Mesopotamia k",6.041,489
+13,chain_of_thought,"Sir, kya aap bata sakte hain ki ancient civilization of Mesopotamia ka itihaas kya hai?","Bilkul, main aapko ancient Mesopotamia ka itihaas batata hoon.
+
+**Pratham step: Tisri dunia ke sabse purane shaharon ka sthal**
+
+Mesopotamia, jo ki shabdon ke arth mein ""tisri dunia"" hai, aapne kuch shaharon ke liye prasiddh hai jo Babylon, Ur, Uruk, aadi shaharon ka ghar hain. Yah jagah, jo ki aajka Iraq hai, 4000 se 1500 ishvar pradarshan prati aadi ke beech viksit hui thi.
+
+**Dowra step: Sumeri",5.402,683
+13,structured_context,"Sir, kya aap bata sakte hain ki ancient civilization of Mesopotamia ka itihaas kya hai?","{
+  ""ancient_civilization"": ""Mesopotamia"",
+  ""history"": {
+    ""shuruwat"": ""Mesopotamia kaa itihaas lagbhag 4500 varsh pehle shuru hua tha"",
+    ""sanskrti"": ""Yahaan par Sumerians, Akkadians, Babylonians, Assyrians, aadi sanskrtiyaan raaj karte the"",
+    ""uddeshya"": ""Unka uddeshya jameen ka nivesh karna, jameen ka vyapar karna, aur jameen se upasthit samanyaon ka vikas karna tha"",
+    ""prachin shaha",6.758,328
+14,zero_shot,"Ma'am, kya hum geography meh natural resources ke baare meh jaan sakte hai?","Bilkul, beta! Geography meh natural resources ka study karna bahut hi jaroori hai. Natural resources inhein maanspattiya, jalvayu, jameen, jal, aur anya prakritik sambandhon ke roop meh samjhaya jaata hai.
+
+Pehle, natural resources ko ek category meh divide kiya jaata hai - renewable aur non-renewable. Renewable resources woh hain jo phir se utpann hone wale hain, jaise ki sooraj ki energy, jalvay",1.983,501
+14,few_shot,"Ma'am, kya hum geography meh natural resources ke baare meh jaan sakte hai?","Beta, geography mein natural resources ke baare mein bahut kuch seekha ja sakta hai. Natural resources ke under mein hum mineral resources, water resources, land resources aur renewable resources shaamil hain.
+
+Mineral resources mein petrol, gas, coal, iron, copper jaise elements shaamil hain. Ye resources hamein electricity banaane, vehicle chalane aur industrial processes ko chalane mein madad k",4.7,380
+14,chain_of_thought,"Ma'am, kya hum geography meh natural resources ke baare meh jaan sakte hai?","Bahut hi accha, geography meh natural resources ke baare meh jaanne ke liye hum isey chhote chhote steps meh badal sakte hain.
+
+**Step 1: Natural Resources Ka Definition**
+Pehle, humko pata hona chahiye ki natural resources kya hain. Natural resources vah sab cheezein hain jo prakriti se milti hain aur hum inka upyog karke apne jeevan ki aavashyakataon ko puri karte hain, jaise ki jal, uthlaans, m",4.019,571
+14,structured_context,"Ma'am, kya hum geography meh natural resources ke baare meh jaan sakte hai?","{ 
+    ""Jaankaari"": {
+        ""Paryavaran aur Samajik Sanrachna"": {
+            ""Prakritik Sambhaavano se jaanene yogya vistrit"": {
+                ""Pani ke sambhaavano"": [
+                    ""Nadiya"", 
+                    ""Jheel"", 
+                    ""Samudr"", 
+                    ""Baarish pani"", 
+                    ""Glahi pani""
+                ],
+                ""Mitthi aur Lavan Pani ke Samb",5.92,396
+15,zero_shot,"Pass summit ki elevation kya thi, aur wahan kya traditional markers milte hain? Hum finally pass ke top par 5,515 metres par pahunch gaye. Yeh ek bade","Summit ki elevation 5,515 metres thi, aur yahan humne ek bade cairn of rocks ke saath white silk scarves aur ragged prayer flags dekhne mein gusse huye. Yeh markers humein pahad ki dharti par yatra karne wale logon ki yaad dilayein.",2.323,190
+15,few_shot,"Pass summit ki elevation kya thi, aur wahan kya traditional markers milte hain? Hum finally pass ke top par 5,515 metres par pahunch gaye. Yeh ek bade","Bhaiya, summit ki elevation 5,515 metres thi. Aur yeh pass ke top par ek bada cairn of rocks tha, jahan white silk scarves aur ragged prayer flags lage hue the.",2.214,179
+15,chain_of_thought,"Pass summit ki elevation kya thi, aur wahan kya traditional markers milte hain? Hum finally pass ke top par 5,515 metres par pahunch gaye. Yeh ek bade","Arre, yeh question to thoda confused kar raha hai. Lekin main try karunga iska answer nikalna.
+
+Step 1: Pehle humko summit ki elevation pata chalni hogi. Yeh question mein aayaa hai ki hum finally pass ke top par 5,515 metres par pahunch gaye. Isse lagta hai ki summit ki elevation 5,515 metres hai.
+
+Step 2: Ab, humko traditional markers pata chalni hogi. Yeh question mein aayaa hai ki yeh ek bade ",2.744,423
+15,structured_context,"Pass summit ki elevation kya thi, aur wahan kya traditional markers milte hain? Hum finally pass ke top par 5,515 metres par pahunch gaye. Yeh ek bade","**Summit Ki Jankari**
+```json
+{
+  ""elevation"": 5515,  // metres
+  ""traditional_markers"": [
+    ""White silk scarves"",
+    ""Ragged prayer flags"",
+    ""Bade cairn of rocks""
+  ]
+}
+```",3.251,176
+16,zero_shot,"The Tale of Melon City mein arch ke baare mein conflict kyu hua, King ne plans mein kya change kiya tha?","The Tale of Melon City mein arch ke baare mein conflict kyu hua, yeh yeh hai: King ne ek naya plan banaya tha jismein ve apne rajya ki raksha ke liye ek bahubali arch banane ka faisla kiya tha. Lekin yeh arch Melon City ki aasman mein ghumne lagne wali ek chhota chhota patthar ke liye khatra ban gaya.
+
+King ne socha ki yeh arch apne rajya ko bachaega, lekin uske vassal aur residents ne iske khilaf",0.617,324
+16,few_shot,"The Tale of Melon City mein arch ke baare mein conflict kyu hua, King ne plans mein kya change kiya tha?","The Tale of Melon City mein arch ke baare mein conflict kyunki hua tha kyunki king ne ek naya plan banaya tha, jismein sabhi melon ko apne khazane mein jaakar rakha jayega aur logon ko kam se kam melon milta. Lekin logon ko yeh plan pasand nahi aaya aur unhone king ke khilaaf protest kiya.",3.356,186
+16,chain_of_thought,"The Tale of Melon City mein arch ke baare mein conflict kyu hua, King ne plans mein kya change kiya tha?","Arre, yeh sawal toh bahut interesting hai. 
+
+1. **Tale of Melon City ke baare mein**: Yeh story hai jismein ek shahar hai jiska naam Melon City hai. Is shahar mein ek arch hota hai jo ek bahut bada vaastavik aitihasik mahatav rakhne wala stambh hai.
+
+2. **Arch ke baare mein conflict**: Is story mein yeh conflict hai ki King (raja) ne arch ko kuch changes karne ka faisla kiya hai. Yeh change kya ho",1.081,546
+16,structured_context,"The Tale of Melon City mein arch ke baare mein conflict kyu hua, King ne plans mein kya change kiya tha?","{
+  ""question"": ""The Tale of Melon City mein arch ke baare mein conflict kyu hua, King ne plans mein kya change kiya tha?"",
+  ""answer"": ""The Tale of Melon City mein ek kahaani hai, jismein ek rajneeti ke conflict ke baare mein bataya gaya hai. King ne apne plans mein ek badlaav kiya tha, jisse arch ke baare mein ek vivaad uth gaya. King ne apne dushmano ke liye ek arch banane ka faisla kiya, jo un",6.516,265
+17,zero_shot,What is the process of eutrophication?,"Arre, eutrophication ka process yeh hai. Jab koi jal mein excessive paaniya nitrogen, phoshoorus, aur sisa (nutrients) chad jaate hain, toh yeh jal mein jeev jantun aur prakash ke liye zaroorat ke liye ek adhik maatra mein ho jaata hai. Iske result mein, jal mein paaniya vriksh aur jeev jantun ki sankhya mein badh jaati hai, jo ek samay mein ek excessive jamaavadi hoti hai, jisse jal ki gati aur a",1.881,402
+17,few_shot,What is the process of eutrophication?,"Bhai, eutrophication ek aisi prakriya hai jahan jal mein paani ki gandagi aur hamaare ghar ke kachre, khad, aur anya chemical jate hain. Isse paani mein oxygen ki kami hoti hai aur jal chaaye ke jeev jante hain. Iske karan unka vikaas aur unka jeevan bhi prabhavit hota hai.",3.388,171
+17,chain_of_thought,What is the process of eutrophication?,"Arre, eutrophication ka process sunne aaya hai. Let's break it down step by step.
+
+1. **Phir se paani mein nikaasi**: Eutrophication ka process shuru hota hai jab paani mein kuch nikaasi hote hain. Yeh nikaasi paani ke source se aati hain, jaise ki gandagi, khaddar, ya anya chemical.
+
+2. **Algae ki vridhi**: Yeh nikaasi paani mein algae ki vridhi mein madad karte hain. Algae hain ye ek prakaar ke ",1.998,513
+17,structured_context,What is the process of eutrophication?,"**Eutrophication Process**
+```json
+{
+  ""process"": {
+    ""step1"": {
+      ""name"": ""Excess Nutrient Addition"",
+      ""description"": ""Overuse of fertilizers and sewage in water bodies lead to excessive nutrient addition, mainly nitrogen and phosphorus.""
+    },
+    ""step2"": {
+      ""name"": ""Algal Bloom"",
+      ""description"": ""Excess nutrients stimulate the growth of algae, leading to an algal bloom.""
+",5.08,549
+18,zero_shot,"Ma'am, mineral kya hota hai?","Beta, mineral ek prakritik vastu hai jo prithvi ke girdhabhoomi se nikalne wala moolika hota hai, jaise ki khanij, patta, ya anya prakritik dravya. Yeh vastuein prakritik rachnatmakta ke dauraan banai jati hain aur inmein vibhinn dharan, rasa, aur gati hoti hain.",3.426,160
+18,few_shot,"Ma'am, mineral kya hota hai?","Ma'am, mineral prakritik duniya se nikalne-wala ek paryaavaran aur rasaayanik tatva hai... Yeh prakriti ka ek aisa bhojan hai jo kisi bhi prakritik khud hai, jaise ki dharti, paani, vaayu aur agni... Ismein kai prakar ke tatve hote hain, jaise ki metal, non-metal aur metalloid...",2.365,175
+18,chain_of_thought,"Ma'am, mineral kya hota hai?","Arre, mineral kya hota hai? 
+
+Ek minute, main sochta hoon... 
+
+Mineral kya hota hai? Yeh ek prakritik vastu hai jiska rachna atyadhik samriddhi se hua hota hai, jaise ki paryapt maatra mein karbon, oksijan, hidrojan, nitrojen aur posforon ke saath-saath anya prakritik sthooliyo. 
+
+In sthooliyon ke anupaat se mineral ke vibhinn prakaar hotey hain, jaise ki pashan, loha, copper, zinc, aur kuch aur. ",1.697,321
+18,structured_context,"Ma'am, mineral kya hota hai?","{
+  ""mineral_ki_defination"": ""Mineral ek prakritik vastu hai jo prithvi ke dharti ke nikhile ka hissa hota hai aur ismein kisi bhi prakaar ke jeev hai nahin."",
+  ""mineral_ki_uchitata"": ""Mineral uchita vastuon mein se ek hai, jo ki prithvi ke dharti ke nikhile ka hissa hota hai aur ismein kisi bhi prakaar ke jeev nahin hota."",
+  ""mineral_ki_upyogta"": ""Mineral ka upyog visheshan, kheti, pharma, aur ",3.526,223
+19,zero_shot,1994 mein kaun si ghatna thi jisne India ke shehri girawat ko global taur par ujagar kiya?,"1994 mein Bhopal gas tragedy ke baad Bharat mein ek aur ghatna hui jisne India ke shehri girawat ko global taur par ujagar kiya, woh Surat ke jhuggi basti ke jalein the, lekin main aapko Surat se hi nahin, balki Mumbai se jude ek ghatna ke bare mein batata hoon. 
+
+1994 mein Mumbai mein ek badi ghatna hui jisne aaj ke samay mein bhi logon ko yaad rakhna hai. Woh ghatna thi Mumbai ke Dharavi jhuggi ",2.026,681
+19,few_shot,1994 mein kaun si ghatna thi jisne India ke shehri girawat ko global taur par ujagar kiya?,"Bhai, 1994 mein ek bahut bada safar hua tha jo India ke shehri girawat ko global taur par ujagar kiya. Tumhe pata hai kya? Bilkul, ek gharelu gharana, Bollywood ki film ""Hum Aapke Hain Koun"" ka shooting tha. Lekin main aapko ek aur bada ghatna ke baare mein bolne wala hoon. 
+
+1994 mein, ek Indian filmon ka ek bahut bada group, ek film banane ke liye Bharat, America, aur Europe ke kai deshon mein g",6.899,386
+19,chain_of_thought,1994 mein kaun si ghatna thi jisne India ke shehri girawat ko global taur par ujagar kiya?,"Arre, ye sawal bahut hi interesting hai. Main iske samadhan ke liye step by step sochta hoon.
+
+Pehla step: Main 1994 ki ghatna ko yaad karta hoon jisne India ke shehri girawat ko global taur par ujagar kiya. 
+
+Doosra step: Main sochta hoon ki 1990s mein shehri girawat ke kai mukhya kshetron mein se ek tha Mumbai (toh 1994 mein Mumbai ke shehri girawat ke baare mein sochta hoon).
+
+Teenra step: Main",4.245,617
+19,structured_context,1994 mein kaun si ghatna thi jisne India ke shehri girawat ko global taur par ujagar kiya?,"""1994 mein, Vikas aur Vikas se sambandhit ghatnaon ko ujagar karne ke liye, UNDP (United Nations Development Programme) ne 'Human Development Index (HDI)' ki shuruaat ki thi. Lekin is ghatna se pahle, 1994 mein, Aaj ke Bharat ke pradhan mantri, PV Narasimha Rao ne videsh vishayon par ek nayi disha ki shuruaat ki thi. 
+
+Iske alawa, 1994 mein, India ka shehri vikaas bhi vishwa bhar mein ujagar hua t",6.05,675

@@ -1,0 +1,9 @@
+           technique  quality_score_mean  quality_score_std  latency_sec_mean  latency_sec_std  tokens_mean  tokens_std
+     agentic_context               8.030              1.797             3.660            2.993       337.52     238.461
+    chain_of_thought               7.760              2.266             2.909            3.116       386.58     280.426
+            few_shot               8.024              1.653             2.628            2.028       231.44     186.804
+hierarchical_context               7.940              1.976             2.600            2.259       393.24     280.851
+           rag_style               7.730              2.155             3.272            2.866       223.70     217.531
+  structured_context               7.240              2.540             5.314            5.316       227.90     174.482
+     tree_of_thought               7.870              1.966             2.774            2.394       362.86     204.748
+           zero_shot               8.020              1.663             2.799            2.441       267.70     172.737

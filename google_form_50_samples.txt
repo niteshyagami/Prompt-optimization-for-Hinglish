@@ -1,0 +1,562 @@
+--- Sample 1 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: rag_style
+Answer:
+Arre, yeh to aisa hai! Steinbeck ke The Pearl mein ek example hai jo ek town ko animal ki tarah dikhaata hai. Yeh analogy yeh hai: 
+
+Town ke nervous system ki tarah ek railway track hai, isme sab kuchh chalti hai. Head wala part hai police station, jo town ki sabhi cheezein ek jaga mein khatam karne ki koshish karta hai. Shoulders ki tarah hain bada market, jahan sab ke samne sab kuchh hai. Aur feet ki tarah hain bus stand, jahan sab log apne ghar jate hain.
+
+Writer ka tone light humour aur sarc
+
+================================================================================
+
+--- Sample 2 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: agentic_context
+Answer:
+Arre, main samajh gaya, problem clear hai. 
+
+Step 1: Samajh liya, Steinbeck ke The Pearl mein ek excerpt hai, jisme ek town ko animal ki tarah describe kiya gaya hai.
+
+Step 2: Yaad kar raha, Steinbeck ka kaam kuch alag hai, wo descriptive aur vivid language ka use karta hai. 
+
+Step 3: Ab main answer deti hoon. 
+
+Steinbeck ne ek analogy ka use kiya hai jo ek town ko animal ki tarah describe karta hai. Isme nervous system, head, shoulders aur feet ke tarah ke baatein hain, jo kuchh is tarah hain: 
+
+================================================================================
+
+--- Sample 3 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: hierarchical_context
+Answer:
+Bachchon, aaj hum acchi notes mein information ko logically divide aur sub-divide karne ke baare mein seekhenge. Ye ek bahut hi important technique hai, jo aapko notes banaate samay jaldi aur acchi tarah se information ko organize karne mein madad karegi.
+
+Main sections ki shuruat hum karte hain 1, 2, 3, aur iske baad. Jab hum ek main section ka shuru karte hain, toh phir hum ismein sub-sections ka use karte hain. Sub-sections ke liye hum (i), (ii), (iii) ka use karte hain. Agar humein sub-sub-s
+
+================================================================================
+
+--- Sample 4 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: chain_of_thought
+Answer:
+Passage ko analyse karne ke baad summarise karne ka process kuch is prakaar hota hai:
+
+1. **Important ideas ko underline karna**: Sabse pehle, hum passage ko dhyan se padhte hain aur important ideas ko underline karte hain. Isse humein pata chalta hai ki kaun si baatein sabse mahatvapoorn hain.
+
+2. **Abbreviate aur short forms ka upyog**: Agar koi badi phrases ya sentences hain, toh hum unhein abbreviate karke ya short forms ka upyog karke likhte hain. Isse humein apne notes ko chhota aur spasht
+
+================================================================================
+
+--- Sample 5 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: agentic_context
+Answer:
+Arre bhai, samajh gaya question. 
+
+Step 1: Samajh liya
+Question yeh hai ki Acchi notes mein information ko logical tarike se kaise divide aur sub-divide karna chahiye. 
+
+Step 2: Yaad kiya
+Pehle se hi ye samajh ke hain ki notes mein information ko divide aur sub-divide karne ke liye figures aur letters ka use hota hai. Main sections - 1, 2, 3, etc. ke liye numbers ka use hota hai. Sub-sections ko (i), (ii), (iii) aur sub-sub-sections ko (a), (b), (c) ke liye letters ka use hota hai.
+
+Step 3: Jaan
+
+================================================================================
+
+--- Sample 6 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: zero_shot
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 7 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: hierarchical_context
+Answer:
+Arre passage ko analyse karne ke baad summarise karne ka process bahut hi important hai, kyunki isse humein pata chalta hai ki kis tarah se humne important information ko grab kiya hai. Pehle hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, taaki humein key points yaad rahein.
+
+Lekin jab hum summarise karte hain, toh hum nominalising ke bajaye points ko full sentences mein expand karte hain. Jaise ki, 
+
+================================================================================
+
+--- Sample 8 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: few_shot
+Answer:
+Bhaiya, Steinbeck ke The Pearl mein, ek analogy hai jo ek town ko ek animal ki tarah dikhata hai. Isme nervous system ke jagah, ek maze hai, jisme se people chalte hain aur apne kaam mein busy hain. Head ke jagah, ek old clock ki tarah ek tower hai, jo time ke sath sath badh raha hai. Shoulders ke jagah, ek heavy load hai, jo town ko thoda pressure deti hai. Aur feet ke jagah, ek pair of worn-out shoes hai, jo lagta hai ki yeh kuch samay se pehle ka ho.
+
+Writer ka tone light humour aur sarcastic
+
+================================================================================
+
+--- Sample 9 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: rag_style
+Answer:
+Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? 
+
+Jab bhi aap apne notes bana rahe hain, to information ko logical tarike se divide karne ke liye aapko figures/letters ka use karna chahiye. Yeh division aapko apne notes ko systematic aur easily readable banane mein madad karegi. 
+
+Main sections ko aap number se differentiate kar sakte hain, jaise: 
+- 1. Introduction 
+- 2. Main points 
+- 3. Conclusion 
+
+Ab sub-sections ko alphabet se differentiate kar sakte ha
+
+================================================================================
+
+--- Sample 10 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: hierarchical_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 11 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: rag_style
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 12 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: few_shot
+Answer:
+Hornby Road par Professor Gaitonde ne dekha, wahin do bade British departmental stores the, Boots aur Woolworth. Ye dono bade brands the, lekin unke liye Handloom House building nahi thi. Aur iske saath-saath British banks ke offices bhi thee, jaise ki Lloyds aur Barclays.
+
+================================================================================
+
+--- Sample 13 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: agentic_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 14 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: tree_of_thought
+Answer:
+Mujhe 3 cheezon par sochna hai:
+
+1. Steinbeck ke The Pearl mein di gayi excerpt mein, ek town ko animal ki tarah dikhaaya gaya hai, jismein nervous system, head, shoulders, aur feet hain. Ye analogy kya use kar rahi hai? 
+2. Writer ka tone kya hai? Light humour aur sarcastic hone ke karan, to writer ka tone kafi unique hai.
+3. Ismein kya vichaar hain jo logon ke liye relevant hain? 
+
+Ab, main apne vichaar express karunga Hinglish mein:
+
+"Haan, main samajh gaya! Steinbeck ne ek town ko animal ki 
+
+================================================================================
+
+--- Sample 15 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: chain_of_thought
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 16 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: structured_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 17 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: structured_context
+Answer:
+{"answer": "Acchi notes mein information ko logically divide aur sub-divide karne ke liye, aapko main sections, sub-sections aur sub-sub-sections mein information ko categorize karna hoga.\n\n1. Main sections - Ismein aapko topic ke mukhya baatein likhni hain, jaise ki introduction, body aur conclusion.\n2. Sub-sections - Ismein aapko main section ke andar specific topics ko cover karna hoga, jaise ki introduction ke andar aapko topic ke bare mein introduce karna hoga, body ke andar aapko topic 
+
+================================================================================
+
+--- Sample 18 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: hierarchical_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 19 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: few_shot
+Answer:
+Bhaiya, ek achi notes banane ke liye information ko logically divide aur sub-divide karne ka tarika yeh hai:
+
+**Main sections**
+
+Sabhi main sections number se diye jate hain, jaise ki 1, 2, 3, etc. In sections ka use hamesha kuch bhi kaafi important topic ya subject hoga.
+
+**Sub-sections**
+
+In sections ko sub-sections mein divide kiya jata hai, aur in sub-sections ko alphabet ke peechhe ki letter se show kiya jata hai, jaise ki (i), (ii), (iii), etc. Sub-sections mein kuch bhi ke liye use kiya j
+
+================================================================================
+
+--- Sample 20 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: few_shot
+Answer:
+Bhaiya, passage ko summarise karne ka process bahut important hai. Pehle hum passage ko analyse karte hain, uske baad hum important ideas ko identify karte hain aur unhein notes mein likhte hain. Isme hum important points ko underline karte hain, unhein abbreviate karte hain, verbs ko short karte hain, aur examples, explanations ko sahi jagah par likhte hain. Phir hum repetition ko avoid karte hain, taaki humara summary concise ho. Lekin nominalising ke bajaye, hum points ko full sentences mein 
+
+================================================================================
+
+--- Sample 21 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: chain_of_thought
+Answer:
+Main is sawal ka jawab dena chahta hoon, aur main iska jawab Kuchh step-by-step se dene ka prayaas karega.
+
+Step 1: Pehle, main samajhna chahta hoon ki Hornby Road ka koi connection aisa hai jahan pe Professor Gaitonde ne koi do bade British departmental stores dekhe ho.
+
+Step 2: Main janta hoon ki Hornby Road Mumbai mein ek pramukh road hai, aur yah Mumbai ke kalakaar aur artiston ke liye ek pramukh sthal hai.
+
+Step 3: Main soch raha hoon ki yeh possible hai ki Professor Gaitonde ne Hornby Road
+
+================================================================================
+
+--- Sample 22 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: agentic_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 23 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: chain_of_thought
+Answer:
+Arre bhai, main is prashn ko solve karne ke liye uplabdh jankari ka upyog karunga.
+
+1. Pehle, main janna chaahta hoon ki Steinbeck ke The Pearl mein konsa excerpt hai, jismein town ko animal ki tarah dikhaaya gaya hai. 
+
+2. Iske baad, main janna chaahta hoon ki vah analogy kya hai, jismein town ko animal ki tarah dekha gaya hai. 
+
+3. Steinbeck ke The Pearl mein, ek town ko kya animal ki tarah dikhaaya gaya hai? 
+
+4. Ab, main janna chaahta hoon ki woh analogy kis tarah hai. 
+
+5. Vah analogy kya h
+
+================================================================================
+
+--- Sample 24 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: structured_context
+Answer:
+{"answer": "The Pearl mein, Steinbeck ek town ko ek animal ki tarah describe karta hai, jiska naam Kino ka ghar hai. Is analogy mein, town ka nervous system 'main street' hai, head 'market place' hai, shoulders 'church' hai, aur feet 'sea shore' hai. Writer ka tone light humour aur sarcastic hai, jaise 'Kino ka ghar, jisse Kino ka parivaar rehta hai, ek samudri jeeva hai jo apne aas-paas ke logon ko kha gaya hai... '", "explanation": "Steinbeck ke is analogy mein, woh ek town ko ek jeev ke roop 
+
+================================================================================
+
+--- Sample 25 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: chain_of_thought
+Answer:
+Arre bhai, main aapko is tarah se step-by-step batata hoon:
+
+**Step 1: Main Section ko decide karen**
+Isme humein apni report ke liye sabse badi categories ya topics ko decide karna hoga. Isme humein main sections ke liye 1, 2, 3, etc. ka use kareinge.
+
+**Step 2: Sub-sections ko decide karen**
+Har main section mein humein apni information ko further sub-divide karna hoga. Isme humein sub-sections ke liye (i), (ii), (iii) jaise figures ka use kareinge.
+
+**Step 3: Sub-sub-sections ko decide karen*
+
+================================================================================
+
+--- Sample 26 ---
+Question: Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj tak nahin chhua hai jaise ki Green Movement ne, jo lagbhag 25 saal pehle shuru hua tha. 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi.
+Model: llama-3.3-70b-versatile
+Technique: agentic_context
+Answer:
+Arre, Green Movement ko samajhne ke liye, humein pehle uske shuru hone ki taarikh ko jaan-na hoga. Green Movement lagbhag 25 saal pehle shuru hua tha, aur uske thodi der baad, 1972 mein, New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi. Toh, Green Movement ka shuru hone ka samay lagbhag 1970 ke dashak mein tha, aur uske baad 1972 mein yeh bada event hua ki New Zealand mein pehli Green party banayi gayi thi. 
+
+Yeh movement itni jaldi aur itni tez se poora human race ko chhu
+
+================================================================================
+
+--- Sample 27 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: tree_of_thought
+Answer:
+Humne passage ko analyse karne ke baad summarise karne ka process socha hai, jisme hum note-making wale steps follow karte hain. 
+
+Pehla tareeka yeh hai ki hum important ideas ko underline karte hain, unhein abbreviate karke verbs ko short karke likhte hain. Isse humein key points ko easily identify karne mein madad milti hai.
+
+Dusra tareeka yeh hai ki hum examples, explanations, aur repetition ko avoid karte hain. Isse humein passage ko concise aur clear tareeke se samjhne mein madad milti hai.
+
+================================================================================
+
+--- Sample 28 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: rag_style
+Answer:
+Passage ko summarise karne ka process mein hum note-making ke steps follow karte hain. Isme hum important ideas ko underline karte hain, unhein abbreviate karte hain, verbs ko short karte hain, aur examples, explanations aur repetition ko avoid karte hain. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+
+================================================================================
+
+--- Sample 29 ---
+Question: Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj tak nahin chhua hai jaise ki Green Movement ne, jo lagbhag 25 saal pehle shuru hua tha. 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi.
+Model: llama-3.3-70b-versatile
+Technique: zero_shot
+Answer:
+Green Movement lagbhag 25 saal pehle shuru hua tha, aur uske shuru hone ke thodi der baad 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi. Yeh ek bada event tha jo duniya bhar mein environment aur sustainable development ke liye jagrukta badhane ka ek mahatvapoorn kadam tha. Is movement ne itni jaldi aur itni tez se poora human race ko chhua hai ki aaj tak koi anya movement iski barabari nahin kar saka hai.
+
+================================================================================
+
+--- Sample 30 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: zero_shot
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 31 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: tree_of_thought
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 32 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: agentic_context
+Answer:
+Arre, passage ko analyse karne ke baad summarise karne ka process samajhna bahut zaroori hai. Pehle, hum passage ko dhyaan se padhte hain aur usme se important ideas ko nikalte hain. Phir, hum un ideas ko apne words mein likhne ki koshish karte hain, jaise ki note-making mein hum karte hain.
+
+Hum important ideas ko underline karte hain, unhein abbreviate karke verbs ko short karke likhne ki koshish karte hain, taki humein samajhne mein aasani ho. Iske alawa, hum examples, explanations, aur repet
+
+================================================================================
+
+--- Sample 33 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: structured_context
+Answer:
+{"answer": "Haan, Professor Gaitonde ne Hornby Road pe dekha tha, lekin Handloom House building wahaan nahi tha, balki Boots aur Woolworth departmental stores aur British banks ke offices the.", "explanation": "Professor Gaitonde ka character Bombay Velvet film mein hai, jo 1960s ki Bombay ki story batati hai. Film mein dikhaya gaya hai ki Hornby Road pe British departmental stores aur banks the, lekin Handloom House building nahi tha. Yeh scene film ki story ko samajhne mein madad karta hai."}
+
+================================================================================
+
+--- Sample 34 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: agentic_context
+Answer:
+Arre bhai, yeh question bahut achi hai. 
+
+Step 1: Understand question - Bhai, Professor Gaitonde ne Hornby Road pe kya dekha? 
+
+Step 2: Recall knowledge - Main yaad kar raha hoon ki Hornby Road Mumbai ke ek pramukh business district hai, jahan par logon ki aankhein khul sakti hain.
+
+Step 3: Answer - Okay bhai, Professor Gaitonde ne Hornby Road pe koi do bade British departmental stores dekhe honge, jahan par Handloom House building nahi tha, balki Boots aur Woolworth departmental stores thi. Aur
+
+================================================================================
+
+--- Sample 35 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: tree_of_thought
+Answer:
+Maine kuchh vichar kiye hain:
+
+1. **Kramik Vistriti**: Information ko logical division aur sub-division karne ke liye, ham kramik vistriti ka upyog kar sakte hain. Iske liye, main sections ko numerically (1, 2, 3, etc.) aur sub-sections ko alphabatically (i, ii, iii, etc.) vistrit kar sakte hain.
+
+2. **Vastuon ke Aaspaas Vistriti**: Information ko vistrit karne ke liye, ham vastuon ke aaspaas vistriti ka upyog kar sakte hain. Iske liye, main sections ko numerically (1, 2, 3, etc.) aur sub-sectio
+
+================================================================================
+
+--- Sample 36 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: rag_style
+Answer:
+Arre bhai, yeh to bahut anokha hai! Professor Gaitonde ne dekha hai ki Hornby Road pe do bade British departmental stores the, joh Handloom House building ke bajay Boots aur Woolworth the. Aur iske alaawa, British banks ke offices bhi the, jaise ki Lloyds aur Barclays. Ab kya pata, yeh kis samay aur kyun the?
+
+================================================================================
+
+--- Sample 37 ---
+Question: Steinbeck ke The Pearl mein di gayi excerpt mein, kya main analogy use kiya gaya hai jo ek town ko describe karta hai, aur writer kaunsa tone apnata hai? Ek town ko animal ki tarah dikhaaya gaya hai. Isme nervous system, head, shoulders aur feet hai... Tone thoda light humour aur sarcastic hai.
+Model: llama-3.1-8b-instant
+Technique: hierarchical_context
+Answer:
+Bachchon, aaj hum Steinbeck ke ek prasiddh kaavya The Pearl par baat karenge. Yeh kaavya ek kathayein ki tarah hai jo apne andar ek saari samajh aur tareekon ki kathayein hai.
+
+Ab, main aapko ek anukaran pradarshit karta hoon, jo ek town ko ek jeev ki tarah dikhata hai. Yeh anukaran ek tarah ki shaili mein dikhaya gaya hai, jismein nervous system, head, shoulders, aur feet ke bare mein baat ki gayi hai. Yeh shaili ek thoda light humour aur sarcasm mein hai, jo aapko ek naye drishtikon se ek town
+
+================================================================================
+
+--- Sample 38 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: rag_style
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 39 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: few_shot
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 40 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: tree_of_thought
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 41 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: zero_shot
+Answer:
+Arre bhai, tumne sahi socha hai. Hornby Road pe Professor Gaitonde ne toh bahut hi pehle ka samay dekha hoga, jab woh Bombay the. Us samay, yahan pe Handloom House building nahi thi, balki Boots aur Woolworth jaise British departmental stores thi. Aur logon ko wahan pe British banks ke offices bhi dekhne ko milte the, jaise ki Lloyds aur Barclays. Wo samay the jab Bombay British hua karta tha aur British rule thi.
+
+================================================================================
+
+--- Sample 42 ---
+Question: Passage ko analyse karne ke baad summarise karne ka process kya hota hai? Isme hum note-making wale steps follow karte hain, jaise ki important ideas ko underline karna, unhein abbreviate karke verbs ko short karke likhna, examples, explanations, aur repetition ko avoid karna. Lekin nominalising ke bajaye hum points ko full sentences mein expand karte hain aur suitable connectors se link karte hain.
+Model: llama-3.3-70b-versatile
+Technique: zero_shot
+Answer:
+Passage ko summarise karne ka process humne bahut hi systematic tarike se kiya hai. Sabse pehle, humne important ideas ko underline kiya, unhein abbreviate kiya, verbs ko short kiya, aur examples, explanations aur repetition ko avoid kiya. Lekin nominalising ke bajaye, humne points ko full sentences mein expand kiya aur suitable connectors se link kiya, jisse summary clear aur coherent ho gaya. Is tarah, humne passage ko effectively summarise kiya aur uske main ideas ko preserve kiya.
+
+================================================================================
+
+--- Sample 43 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: structured_context
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 44 ---
+Question: Sir, electricity ka adhar kya hai?
+Model: llama-3.3-70b-versatile
+Technique: few_shot
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 45 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: tree_of_thought
+Answer:
+Arre yeh sawal bahut confusing hai. 
+
+Pehle soch: Kya yeh sochne ki jaaye ki woh samay tha jab British rule thi aur logon ka jeevan bahut alag tha. Shayed Professor Gaitonde ne do bade British departmental stores dekhe hain, jahaan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi.
+
+Dusri soch: Kya yeh sochne ki jaaye ki yeh samay hai jab British rule khulee hai, aur logon ke jeevan mein British culture ki prabhav ho rahi hai. Shayed Professor Gaitonde ne dek
+
+================================================================================
+
+--- Sample 46 ---
+Question: Hornby Road pe Professor Gaitonde ne dekhe koi do bade British departmental stores, jahan pe Handloom House building nahi thi, balki Boots aur Woolworth departmental stores thi, aur Lloyds, Barclays jaise British banks ke offices bhi thi?
+Model: llama-3.1-8b-instant
+Technique: hierarchical_context
+Answer:
+Beta, Hornby Road pe Professor Gaitonde ke saamne do bade British departmental stores dekhne gaye the, lekin unmein Handloom House building nahi tha. Kya hua tha? 
+
+Woh do departmental stores Boots aur Woolworth the. Aapne kuchh samay pehle hi ye baat suni hogi, lekin main issey phir bhi samajhne ki koshish karta hoon. Boots ek British departmental store tha jismein aapko kai chijen mil jaati thi, jaise ki aushadhiyan, hair care product, aur kuchh aur chijen. Aur Woolworth ek departmental store 
+
+================================================================================
+
+--- Sample 47 ---
+Question: Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj tak nahin chhua hai jaise ki Green Movement ne, jo lagbhag 25 saal pehle shuru hua tha. 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi.
+Model: llama-3.3-70b-versatile
+Technique: structured_context
+Answer:
+{"answer": "Green Movement 25 saal pehle shuru hua tha", "explanation": "1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi, jisse Green Movement ko ek bada boost mila. Is movement ne poore human race ko jaldi aur tez se chhua hai, aur 25 saal mein isne bahut bada aasar dikhaya hai."}
+
+================================================================================
+
+--- Sample 48 ---
+Question: Sir, what is difference between speed and velocity, dono mein kya antar hai?
+Model: llama-3.3-70b-versatile
+Technique: chain_of_thought
+Answer:
+ERROR
+
+================================================================================
+
+--- Sample 49 ---
+Question: Acchi notes mein information ko logically kaise divide aur sub-divide karna chahiye? Information ko logically divide aur sub-divide karne ke liye figures/letters ka use hota hai. Divisions is tarah se ki jati hain: Main sections - 1, 2, 3, etc. Sub-sections - (i), (ii), (iii), etc. Sub-sub-sections - (a), (b), (c), etc.
+Model: llama-3.1-8b-instant
+Technique: zero_shot
+Answer:
+Acchi notes mein information ko logically divide aur sub-divide karne ka tarika yeh hai:
+
+1. **Main sections**: Apne note ko kai main sections mein divide karein, jaise ki 1, 2, 3, etc. Har main section mein related topic ko shamil karein.
+
+2. **Sub-sections**: Har main section ko sub-sections mein divide karein, jaise ki (i), (ii), (iii), etc. Sub-sections mein related sub-topic ko shamil karein.
+
+3. **Sub-sub-sections**: Har sub-section ko sub-sub-sections mein divide karein, jaise ki (a), (b)
+
+================================================================================
+
+--- Sample 50 ---
+Question: Green Movement kab shuru hua aur uske shuru hone ke thodi der baad kya bada event hua? Itni jaldi aur itni tez se poora human race ko koi movement aaj tak nahin chhua hai jaise ki Green Movement ne, jo lagbhag 25 saal pehle shuru hua tha. 1972 mein New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi.
+Model: llama-3.3-70b-versatile
+Technique: hierarchical_context
+Answer:
+Arre, Green Movement ke baare mein baat karte hain. To, yeh movement lagbhag 25 saal pehle shuru hua tha, lekin uske shuru hone ke thodi der baad ek bada event hua tha jo poore human race ko chhoo gaya. 
+
+1972 mein, New Zealand mein duniya ki pehli nationwide Green party banayi gayi thi. Yeh ek bahut bada kadam tha, kyunki pehle kabhi bhi koi political party environment aur sustainable development par focus nahi karti thi. Is party ke banane ke baad, logon mein jagrukta badhne lagi ki humein apn
+
+================================================================================

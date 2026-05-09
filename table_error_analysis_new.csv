@@ -1,0 +1,17 @@
+technique,total_samples,quality_mean,quality_std,model
+agentic_context,200,7.46,2.727,Llama-3.1-8B
+chain_of_thought,200,7.422,2.829,Llama-3.1-8B
+few_shot,200,7.292,2.87,Llama-3.1-8B
+hierarchical_context,200,7.152,2.993,Llama-3.1-8B
+rag_style,200,7.282,2.94,Llama-3.1-8B
+structured_context,200,7.356,2.769,Llama-3.1-8B
+tree_of_thought,200,7.468,2.733,Llama-3.1-8B
+zero_shot,200,7.395,2.772,Llama-3.1-8B
+agentic_context,200,6.4,2.903,Llama-3.3-70B
+chain_of_thought,200,6.445,3.02,Llama-3.3-70B
+few_shot,200,6.555,2.934,Llama-3.3-70B
+hierarchical_context,200,6.502,2.912,Llama-3.3-70B
+rag_style,200,6.342,3.092,Llama-3.3-70B
+structured_context,200,6.572,2.975,Llama-3.3-70B
+tree_of_thought,200,6.492,2.958,Llama-3.3-70B
+zero_shot,200,6.22,3.047,Llama-3.3-70B

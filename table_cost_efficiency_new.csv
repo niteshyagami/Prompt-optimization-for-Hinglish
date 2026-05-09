@@ -1,0 +1,17 @@
+model,technique,avg_quality,avg_latency,avg_tokens,avg_q_per_sec,avg_q_per_token
+Llama-3.1-8B,agentic_context,7.46,2.7184,224.405,3595.8008,3.6039
+Llama-3.1-8B,chain_of_thought,7.4225,2.8474,256.415,3159.1773,3.1665
+Llama-3.1-8B,few_shot,7.2925,2.6582,148.81,3421.4691,3.4349
+Llama-3.1-8B,hierarchical_context,7.1525,2.1434,268.055,3294.1568,3.3
+Llama-3.1-8B,rag_style,7.2825,2.6602,141.37,3435.7756,3.4504
+Llama-3.1-8B,structured_context,7.3565,3.657,147.57,3288.6473,3.3037
+Llama-3.1-8B,tree_of_thought,7.4675,2.7524,245.575,3386.7133,3.394
+Llama-3.1-8B,zero_shot,7.395,4.2613,187.25,3291.9602,3.3032
+Llama-3.3-70B,agentic_context,6.4,0.4828,68.15,5362.9332,5.3653
+Llama-3.3-70B,chain_of_thought,6.445,0.5945,83.375,5350.3596,5.3524
+Llama-3.3-70B,few_shot,6.555,0.3826,45.265,5433.3085,5.4375
+Llama-3.3-70B,hierarchical_context,6.5025,0.6266,84.765,5395.3636,5.3973
+Llama-3.3-70B,rag_style,6.3425,0.7837,38.605,5166.4762,5.1713
+Llama-3.3-70B,structured_context,6.5725,0.2919,41.43,5458.5144,5.4625
+Llama-3.3-70B,tree_of_thought,6.4925,0.5663,76.6,5377.8908,5.3802
+Llama-3.3-70B,zero_shot,6.22,0.2358,52.025,5148.5715,5.1519
