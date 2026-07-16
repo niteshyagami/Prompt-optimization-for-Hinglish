@@ -188,7 +188,7 @@ def process_question(user_input, language_choice, language_options, objective, u
             return {"error": "Groq SDK not installed. Install requirements.txt."}
         api_key = get_groq_api_key()
         if not api_key:
-            return {"error": "GROQ_API_KEY is not set in secrets or environment."}
+            return {"error": "Live refinement is temporarily unavailable — the app owner needs to configure GROQ_API_KEY."}
         try:
             optimized = refine_with_groq(optimized, api_key, model, language_params["language_label"])
             engine_used = f"groq:{model}"
@@ -605,10 +605,7 @@ with st.sidebar:
             ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"],
             index=0,
         )
-        with st.expander("API key (optional)"):
-            manual_key = st.text_input("GROQ_API_KEY override", type="password")
-            if manual_key:
-                st.session_state["manual_groq_key"] = manual_key
+        st.caption("Runs on the app's own model access — no setup needed on your end.")
     else:
         st.caption("Off — uses fast offline template enhancement instead of a live API call.")
 
@@ -770,7 +767,7 @@ for idx, msg in enumerate(messages):
                         if Groq is None:
                             st.error("Groq SDK not installed.")
                         elif not api_key:
-                            st.error("No GROQ_API_KEY found. Add one in the Groq refinement section in the sidebar.")
+                            st.error("Live features are temporarily unavailable — the app owner needs to configure GROQ_API_KEY.")
                         else:
                             with st.spinner("Calling the model twice (naive + optimized)..."):
                                 try:
